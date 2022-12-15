@@ -1,5 +1,5 @@
 ## Objetivo
-Desarrollar un Backend API REST, que exponga una serie de end-points que puedan ser consumidos por un frontend.llar un Backend API REST, que exponga una serie de end-points que puedan ser consumidos por un frontend.
+Desarrollar un Backend API REST, que exponga una serie de end-points que puedan ser consumidos por un frontend.
 
 ## Roadmap
 Crea el documento json que servirá como base de datos.
