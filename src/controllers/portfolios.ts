@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { getEntries, getEntriesId } from "../services/portfolioServices"
+import { getEntries, getEntriesId, saveProject } from "../services/portfolioServices"
 
 
 
@@ -20,3 +20,14 @@ export const projectsIdCtrl=(_req:Request, _res:Response) => {
     _res.json(result)
 }
 
+export const saveProjectCtrl=(req:Request, res:Response) => {
+    const project = req.body
+    const result = saveProject(project)
+    res.json(result);
+}
+
+
+//export const newProject=(_req: Request, _res:Response)=> {
+    //const addProject = _req.body
+//    console.log(_req.body)
+//}

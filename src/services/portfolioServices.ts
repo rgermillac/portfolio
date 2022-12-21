@@ -11,3 +11,8 @@ export const getEntriesId = (id:any) => {
    //console.log(projects)
 }
 
+export const saveProject = (project:any)=>{
+   portfolioData.projects.push(project);
+   return portfolioData.projects
+   //const projects = portfolioData.projects
+}
